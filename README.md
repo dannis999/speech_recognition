@@ -4,6 +4,7 @@
 virtualenv --python=%appdata%\..\Local\Programs\Python\Python35\python.exe venv35tf115
 cd venv35tf115
 Scripts\activate
+pip install grpcio==1.13.0
 pip install tensorflow==1.15
 ```
 
