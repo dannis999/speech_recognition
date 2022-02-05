@@ -4,8 +4,7 @@
 virtualenv --python=%appdata%\..\Local\Programs\Python\Python35\python.exe venv35tf115
 cd venv35tf115
 Scripts\activate
-pip install grpcio==1.13.0
-pip install tensorflow==1.15
+pip install tensorflow==1.5.0
 ```
 
 
@@ -31,7 +30,3 @@ pip install tensorflow==1.15
 - 在终端运行 ```python test.py``` 测试
 - 也可以使用PyCharm打开
 
-------
-
-##### 4. 测试效果
-![test-image](https://github.com/xxbb1234021/speech_recognition/blob/master/images/1.png)
