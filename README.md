@@ -5,6 +5,8 @@ virtualenv --python=%appdata%\..\Local\Programs\Python\Python35\python.exe venv3
 cd venv35tf115
 Scripts\activate
 pip install tensorflow==1.5.0
+pip install scipy
+pip install python_speech_features
 ```
 
 
