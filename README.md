@@ -1,22 +1,36 @@
-## ÖĞÎÄÓïÒôÊ¶±ğ
-##### 1. »·¾³
-- Python£º3.5
+# ç¯å¢ƒé…ç½®
+
+```
+virtualenv --python=%appdata%\..\Local\Programs\Python\Python35\python.exe venv35tf115
+cd venv35tf115
+Scripts\activate
+pip install tensorflow==1.15
+```
+
+
+
+# åŸå§‹ readme
+
+## ä¸­æ–‡è¯­éŸ³è¯†åˆ«
+
+##### 1. ç¯å¢ƒ
+- Pythonï¼š3.5
 - Tensorflow : 1.5.0
 
 ------
 
-##### 2. ÑµÁ·Êı¾İÏÂÔØ
-- Çå»ª´óÑ§ÖĞÎÄÓïÁÏ¿â£¨thchs30£©[ÏÂÔØµØÖ·](http://www.openslr.org/18/)
+##### 2. è®­ç»ƒæ•°æ®ä¸‹è½½
+- æ¸…åå¤§å­¦ä¸­æ–‡è¯­æ–™åº“ï¼ˆthchs30ï¼‰[ä¸‹è½½åœ°å€](http://www.openslr.org/18/)
 
 ------
 
-##### 3. ÑµÁ·
-- ÅäÖÃconfÄ¿Â¼ÏÂµÄconf.iniÎÄ¼şÖĞµÄ¸÷Ïî
-- ÔÚÖÕ¶ËÔËĞĞ ```python train.py``` ¿ªÊ¼ÑµÁ·
-- ÔÚÖÕ¶ËÔËĞĞ ```python test.py``` ²âÊÔ
-- Ò²¿ÉÒÔÊ¹ÓÃPyCharm´ò¿ª
+##### 3. è®­ç»ƒ
+- é…ç½®confç›®å½•ä¸‹çš„conf.iniæ–‡ä»¶ä¸­çš„å„é¡¹
+- åœ¨ç»ˆç«¯è¿è¡Œ ```python train.py``` å¼€å§‹è®­ç»ƒ
+- åœ¨ç»ˆç«¯è¿è¡Œ ```python test.py``` æµ‹è¯•
+- ä¹Ÿå¯ä»¥ä½¿ç”¨PyCharmæ‰“å¼€
 
 ------
 
-##### 4. ²âÊÔĞ§¹û
+##### 4. æµ‹è¯•æ•ˆæœ
 ![test-image](https://github.com/xxbb1234021/speech_recognition/blob/master/images/1.png)
